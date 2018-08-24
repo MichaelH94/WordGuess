@@ -9,18 +9,31 @@
   </head>
   <body>
     <div class="container">
-        <div class="row">
-            <h1>Guess the Word!</h1>
+        <div class="row text-center">
+            <h1>Guess the Word - Super Smash Bros. Edition</h1>
         </div>
         <div class="row">
+          <div class="col-12">
         <img src="assets/images/smashlogo.png" width="250x" height="250px">
+      </div>
         </div>
         <div class="container">
-            <div class="row">
-            <p>Instructions: Type a letter to guess which character I'm thinking of!</p>
-            </div>
-        </div>
+            <p>Instructions: Type a letter to guess the name of character I'm thinking of. <br>
+              When you've guessed every letter correctly - you win! Press Begin to play.</p>
+          </div>
+          <div id="wins">Current Wins: 0</div>
+          <div id="losses">Current Losses: 0</div>
+          <br>
+            <button type="button" class="btn btn-success" onclick="begin()">Begin</button>
+            <br>
+           </div>
+    <div class="container">
+          <div id="word"> </div>
+          <div id="guessesLeft"> </div>
+          <div id="guessedLetters"> </div>
+          <div id="hint"> </div>
+    </div>
         
-    <script src="assets/javascript/game.js"></script>
+        <script src="assets/javascript/game.js"></script>
   </body>
 </html>
