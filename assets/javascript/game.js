@@ -44,7 +44,7 @@ function begin() {
     for(x = 0; x < selectWord.length; x++) {
         blankWord.push("_");
     }
-
+    console.log(selectWord);
     document.getElementById("word").innerText = "Character: " + blankWord;
     document.getElementById("guessesLeft").innerText = "Guesses Left: " + guessesLeft + ".";
     document.getElementById("hint").innerText = "Hint: " + selectHint + ".";

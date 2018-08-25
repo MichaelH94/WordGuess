@@ -1,2 +1,7 @@
-# WordGuess
-Assignment 3 - KU
+# Word Guess
+# This is an assignment for the KU coding bootcamp.
+
+This project is a simple Guess the Word style game designed in Visual Studio Code using HTML, CSS and JavaScript. The premise of the game is to 
+guess the word of the topic I chose. The topic I chose for this game is the character list from the Super Smash Brothers video game series. This means there are over 70 different words to guess. The game begins by pressing the begin button, and the site will automatically read any alphabetical character typed by the user. The user has] to guess each letter in the character's name. If the user makes 10 wrong guesses, they will lose. If the character name is completely guessed, the user wins. Wins and losses are tracked. There is a hint for each character's name, but for grading purposes the character name is also stored in the console. 
+
+The project makes use of several different types of JavaScript code. Most prominently functions, keyboard detection events, for loops and if statements. I used a single primary function with a nested function in order to keep things organized together. Using multiple arrays allowed for minimal comparison statements, thus saving lines of code within the function itself. The game is contained within the same event the Begin button activates, which means very little active JavaScript runs while simply viewing the webpage. While this is not important to such a small project, larger projects may be slow on older computers if a lot of JavaScript runs at the same time.
